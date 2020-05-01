@@ -10,7 +10,7 @@ We have implemented the proposed computational framework by combining the capabi
 
 ## Requirements
 Running the example `plate_with_hole.m` requires installation of:
-* COMSOL Multiphysics (version >= 5.3)
+* COMSOL Multiphysics (version > 5.2)
 * COMSOL Java API (version >4.3)
 * MATLAB. version 7.10.0 or higher
 * MATLAB Optimization Toolbox
