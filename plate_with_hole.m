@@ -1,7 +1,7 @@
 function out = plate_with_hole(formulation,hardening,anisotropy,sizeMesh,solid,coupling,Coupling_param)
 %-------------------------------------------------------------------------------------------;
 % Degradation of benchmark rectangle plate with a circular hole under mechanical & chemical ;
-% stimuli. for more information refer to chapter 5, section 1 of the paper.                 ;
+% stimuli. For more information refer to chapter 5, section 1 of the paper.                 ;
 % Running options:                                                                          ;
 % formulation: <CG> or <NN>; hardening: <Model_I> or <model_II>                             ;
 % anisotropy: <None> or <Low> or <High>                                                     ;
