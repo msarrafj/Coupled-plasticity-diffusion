@@ -31,7 +31,7 @@ addpath('/cluster/apps/comsol/5.3/x86_64/mli');
 mphstart(12345);
 ```
 
-* Declare function variables
+* Declare variables in plate_with_hole function as:
 
 | variable        |   value        |
 | ------------- |-------------| 
