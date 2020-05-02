@@ -1,4 +1,4 @@
-#  MATLAB code for Coupled plasticity-diffusion problem
+#  MATLAB code for coupled plasticity-diffusion problem
 Numerical example of degradation of plate with a circulate hole for
 > Mohammad. S. Joshaghani and Kalyana. B. Nakshatrala,
 > ``A maximum-principle-satisfying modeling framework for coupling plasticity with species diffusion"
@@ -27,7 +27,7 @@ The COMSOL server is started in the background. With the *-port* you can specify
 ## Matlab script
 * MATLAB script needs to know where to find COMSOL and through which port the communication should take place. Make sure to include
 ```
-addpath('/cluster/apps/comsol/5.3/x86_64/mli');
+addpath('/path-to-apps/comsol/5.3/x86_64/mli');
 mphstart(12345);
 ```
 
