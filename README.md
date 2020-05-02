@@ -11,7 +11,7 @@ We have implemented the proposed computational framework by combining the capabi
 ## Requirements
 Running the example `plate_with_hole.m` requires installation of:
 * COMSOL Multiphysics (version > 5.2)
-* COMSOL Java API (version >4.3)
+* COMSOL Java API (version > 4.3)
 * MATLAB. version 7.10.0 or higher
 * MATLAB Optimization Toolbox
 
@@ -40,5 +40,5 @@ mphstart(12345);
 | anisotropy      | `None` or `Low` or `High` |
 | sizeMesh | values `1` to `6`, one is the coarsest |
 | solid | `el` for elastic; `ppl` for perfectly plastic, or `elpl` for elastoplastic |
-| coupling | `None>`for uncoupled, `One−way`, or `Two−way`  |
+| coupling | `None`for uncoupled, `One−way`, or `Two−way`  |
 | coupling param | set `$c_ref$ value` if model *model I* used and `$zeta$ value` if *model II* used|
