@@ -329,7 +329,7 @@ nodofs_c = info.ndofs;
 idx_dofs_c = info.elements.tri.dofs(:,:);
 idx_dofs_c = idx_dofs_c + 1;
 CMapped_index_matrix=zeros(3*size(info.elements.tri.dofs(:,:),2),2);
-CMapped_index_matrix(:,1) = Vector(idx_dofs_c);
+CMapped_index_matrix(:,1) = idx_dofs_c(:);
 CMapped_index_matrix(:,2) = c_index_global;
 CMap = unique(CMapped_index_matrix, 'rows');
 
